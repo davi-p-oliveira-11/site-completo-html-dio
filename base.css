@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  display: inline;
+  height: 32px;
+  width: 32px;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: aqua;
+  padding: 10px 20px 0px;
+}
+.header {
+  background-color: rgb(5, 108, 108);
+  min-height: 150px;
+}
+.content {
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
+}
+.footer {
+  background-color: rgb(99, 56, 240);
+  min-height: 150px;
+}
+
+/* table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #000;
+  color: #fff;
+}
+
+/* form group */
+
+form {
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 48%;
+  margin-right: 4%;
+  cursor: pointer;
+}
+
+button:last-of-type {
+  margin-right: 0;
+}
